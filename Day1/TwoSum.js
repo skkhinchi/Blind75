@@ -22,3 +22,7 @@ function TwoSum(arr, target) {
 let arr = [2, 7, 4, 5, 11, 15];
 let target = 17;
 console.log(TwoSum(arr, target));
+
+
+// Nested Loop (Brute Force)	=> O(n²) ❌ (Checking every pair)	 =>O(1) ✅ (No extra space)
+// HashMap Approach	O(n) ✅  =>(Map.has() & Map.set() are O(1))	O(n) ❌  => (Extra space for the Map)
