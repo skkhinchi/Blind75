@@ -1,4 +1,4 @@
-const arr= [1,2,4,3,5];
+const arr= [1,2,4,3,5,5];
 
 const checkDuplicateArray = (arr) => {
     const newSet= new Set();
